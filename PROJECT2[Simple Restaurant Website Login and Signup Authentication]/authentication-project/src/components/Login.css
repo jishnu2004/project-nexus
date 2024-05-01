@@ -1,0 +1,47 @@
+.login-container {
+    display: flex; /* Center elements horizontally */
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Align horizontally to center */
+    align-items: center; /* Align vertically to center */
+    width: 100%; /* Stretch to full width */
+    min-height: 100vh; /* Take up full viewport height */
+    background-image: url("img.jpg"); /* Replace with your restaurant image */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    font-family: sans-serif; /* Set a basic font */
+  }
+  
+  .login-title {
+    color: #fff; /* White text */
+    font-size: 2rem; /* Larger font size */
+    margin-bottom: 2rem; /* Add some space below */
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px; /* Set form width */
+    padding: 2rem; /* Add padding for spacing */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  .login-input {
+    margin-bottom: 1rem; /* Add space between inputs */
+    padding: 1rem; /* Add padding for spacing inside */
+    border: none; /* Remove default border */
+    border-radius: 3px; /* Rounded corners for inputs */
+    font-size: 1rem; /* Set input font size */
+  }
+  
+  .login-button {
+    background-color: #f0545e; /* Restaurant theme color? */
+    color: #fff; /* White text */
+    padding: 1rem;
+    border: none; /* Remove default border */
+    border-radius: 3px; /* Rounded corners for button */
+    font-size: 1rem; /* Set button font size */
+    cursor: pointer; /* Make it look clickable */
+  }
+  
+  
